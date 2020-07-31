@@ -18,7 +18,7 @@ public class HelloController {
 
     @RequestMapping(path = "hello/{name}", method = RequestMethod.GET)
     @ResponseBody
-    public  String sayHello(@PathVariable String name) {
+    public  String SayHello(@PathVariable String name) {
         return "Hello " + name + "!";
     }
 //@GetMapping("/hello/{name}")
