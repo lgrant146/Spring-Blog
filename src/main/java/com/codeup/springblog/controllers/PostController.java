@@ -16,7 +16,7 @@ public class PostController {
     public String index(Model model){
 //        creating a list of posts, to be hardcoded in with post records
         ArrayList<Post> myPosts = new ArrayList<>();
-        myPosts.add(new Post(2,"Title 2", "post post"));
+        myPosts.add(new Post(2,"Title 2", "post post post"));
         myPosts.add(new Post(3,"Title 3", "Toast Toast"));
         myPosts.add(new Post(4,"Title 4", "Yay"));
 
